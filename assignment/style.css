@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-box img {
+    width: 100%; /* Make the image take full width of the box */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners for images */
+    margin-bottom: 10px; /* Space between the image and the text */
+}
+
+.product-box:hover {
+    background-color: #f0f0f0;
+}
+
+.more-info-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.more-info-btn:hover {
+    background-color: #0056b3;
+}
